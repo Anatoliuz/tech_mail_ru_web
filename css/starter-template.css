@@ -5,6 +5,24 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-.navbar.form .{
+.navbar form .form-control {
 	width: 100%;
+}
+#myid1{
+	width: 100px;
+}
+.topbar{
+	width:70%;
+}
+.search{
+	width: 50%;
+}
+.navbar .input-group{
+	width:100%;
+}
+.form-control > .last{
+	width: 100%;
+}
+.input-group-btn .size11{
+	width: 11%;
 }

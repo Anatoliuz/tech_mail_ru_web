@@ -1,0 +1,75 @@
+Домашнее задание 1 “Статическая верстка” - 16 баллов
+Верстка общего вида (layout) страницы - 4
+общий вид: 2 колонки, header, footer - 1
+правая колонка - 1
+блок авторизованного юзера  - 1
+поисковая строка и логотип - 1
+Верстка листинга вопросов - 3
+общий вид (паддинги, аватарка) - 1
+кнопки лайков - 1
+тэги, счетчики ответов, остальное - 1
+Верстка страницы вопроса - 3
+общий вид - 1
+чекбокс “правильный ответ”, кнопки лайков  - 1
+форма ответа - 1 балл
+Верстка формы добавления вопроса - 3
+общий вид - 2
+сообщения об ошибках - 1
+Верстка форм логина и регистрации - 3
+общий вид - 2
+аватарка и сообщения об ошибках - 1
+
+                                       <div class="container">
+                                         <div class="starter-template">
+                                          <h1>Bootstrap starter template</h1>
+                                          <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.
+                                           Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML documentUse this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document</p>
+                                         </div>
+
+					</div><!-- /.container
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <!-- add header -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">TravelZ</a>
+        </div>
+        <!-- add menu -->
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+
+            <!-- add search form -->
+            <form class="navbar-form navbar-right" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search this site">
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+http://www.kodingmadesimple.com/2015/04/twitter-bootstrap-search-box-icon-navbar.html
+			<!-- Bootstrap core JavaScript
+			================================================== -->
+			<!-- Placed at the end of the document so the pages load faster -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+			<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+			<script src="js/bootstrap.js"></script>
+			<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+			<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+		</body>
+		</html>
