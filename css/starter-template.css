@@ -2,6 +2,10 @@
 body {
   padding-top: 0px;
 }
+.avatar{
+	margin-bottom: 15px;
+	
+}
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -15,8 +19,11 @@ body {
 .topbar{
 	width:70%;
 }
+.searchmain{
+	width: 41%;
+}
 .search{
-	width: 45%;
+	width: 49%;
 }
 .myfield{
 	width:89%;
@@ -49,4 +56,72 @@ body {
     float: left;
     left: -5px;
 }
+.answer{
+	margin-left: 1%;
+	width:97%;
+}
+.answerbutton{
+	margin-left: 9px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.answersstyle{
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
+}
+#jquery-script-menu {
+position: fixed;
+height: 90px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 5px solid #316594;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+.paginationindex{
+	padding-left:14px;
+}
+.question{
 
+	margin-top:-5px;
+}
+.tempo{
+	width: 175%
+}
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+.askask{
+	margin-left:78px;
+}
